@@ -1,0 +1,8 @@
+name: pipeline example
+on: push
+jobs:
+  first-job:
+   runs-on: ubuntu-latest
+   steps:
+     - name: welcome job
+       run: echo "welcome to KLU university"
